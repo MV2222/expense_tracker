@@ -1,0 +1,12 @@
+.expenses {
+  padding: 1rem;
+  box-shadow: 0 10px 10px rgba(9, 43, 37, 0.753);
+  background-image: linear-gradient(
+    to right,
+    rgb(32, 112, 99),
+    rgb(44, 90, 46)
+  );
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+}
