@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import Expenses from "./components/Expenses/Expenses";
 import NewExpense from "./components/NewExpenses/NewExpense";
+import Footer from "./components/Footer/Footer";
 
 const INIT_EXPENSES = [];
 
@@ -18,6 +19,7 @@ const App = () => {
     <div>
       <NewExpense onAddNewExpense={addExpenseHandler} />
       <Expenses items={expenses} />
+      <Footer />
     </div>
   );
 };

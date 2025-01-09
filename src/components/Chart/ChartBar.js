@@ -2,7 +2,7 @@ import React from "react";
 
 import "./ChartBar.css";
 
-const ChartBr = (props) => {
+const ChartBar = (props) => {
   let barFillHeight = "0%";
 
   if (props.maxValue > 0) {
@@ -22,4 +22,4 @@ const ChartBr = (props) => {
   );
 };
 
-export default ChartBr;
+export default ChartBar;
