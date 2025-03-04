@@ -16,11 +16,11 @@ const App = () => {
   };
 
   return (
-    <div>
+    <>
       <NewExpense onAddNewExpense={addExpenseHandler} />
       <Expenses items={expenses} />
       <Footer />
-    </div>
+    </>
   );
 };
 
