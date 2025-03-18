@@ -1,0 +1,13 @@
+.chart {
+  padding: 1rem;
+  border-radius: 12px;
+  background-image: linear-gradient(
+    to right,
+    rgb(32, 112, 99),
+    rgb(44, 90, 46)
+  );
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  height: 10rem;
+}
